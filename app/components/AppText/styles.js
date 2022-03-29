@@ -3,7 +3,7 @@ import { StyleSheet, Platform } from 'react-native';
 
 const styles = StyleSheet.create({
     text: {
-        color: 'tomato',
+        color: '#000',
         ...Platform.select({
             ios: {
                 fontFamily: 'Avenir',
