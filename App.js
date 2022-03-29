@@ -5,6 +5,7 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 
 import AppText from './app/components/AppText';
+import AppButton from './app/components/AppButton';
 
 export default function App() {
   return (
@@ -16,8 +17,7 @@ export default function App() {
       }}
     >
       
-    <AppText>I love React Native!</AppText>
-    <MaterialCommunityIcons name='email' size={200} color= 'green'/>
+      <AppButton title="Login" onPress={() => console.log("Tapped")}/>
 
     </View>
   );
