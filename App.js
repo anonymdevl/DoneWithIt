@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Image} from 'react-native';
+import {FlatList} from 'react-native';
 
-import Card from './app/components/Card';
-import ViewImageScreen from './app/screens/ViewImageScreen';
+import MessagesScreen from './app/screens/MessagesScreen';
+import ListItemSeparator from './app/components/ListItemSeparator';
 
 export default function App() {
-  return <ViewImageScreen />;
+  return <MessagesScreen />;
 
 }
