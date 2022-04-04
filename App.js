@@ -1,10 +1,16 @@
 import React from 'react';
-import {FlatList} from 'react-native';
+import { View, TextInput } from 'react-native';
+import Icon from './app/components/Icon';
+import ListItem from './app/components/ListItem';
 
+import Screen from './app/components/Screen';
+import AccountScreen from './app/screens/AccountScreen';
 import MessagesScreen from './app/screens/MessagesScreen';
-import ListItemSeparator from './app/components/ListItemSeparator';
+import ListingScreen from './app/screens/ListingScreen';
 
-export default function App() {
-  return <MessagesScreen />;
 
+function App(props) {
+  return <ListingScreen />;
 }
+
+export default App;
